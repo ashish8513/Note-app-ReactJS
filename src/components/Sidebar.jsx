@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import List from "@mui/material/List";
-import { ListItem, ListItemText, IconButton } from "@mui/material";
-import { Divider, Button, TextField } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 function Sidebar() {
@@ -23,6 +20,7 @@ function Sidebar() {
   };
 
   const handleDeleteNote = (index) => {
+    alert("Are you sure you want to delete")
     setNotes(notes.filter((_, i) => i !== index));
   };
 
