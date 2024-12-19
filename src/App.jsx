@@ -1,12 +1,16 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
 import Note from "./components/Note";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="flex h-screen">
-      <Sidebar />
-      <Note/>
+    <div className="">
+      {/* <Sidebar />
+      <Note/> */}
+      {/* <Footer/> */}
+      <Navbar/>
     </div>
   );
 }
